@@ -1,0 +1,22 @@
+{
+  "name": "dsi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Titov",
+  "license": "ISC",
+  "description": "Simple single-page website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namsilatI/DSI.git"
+  },
+  "keywords": [
+    "DSI"
+  ],
+  "bugs": {
+    "url": "https://github.com/namsilatI/DSI/issues"
+  },
+  "homepage": "https://github.com/namsilatI/DSI#readme"
+}
