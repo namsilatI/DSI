@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "lite": "lite-server --open=dsi.html",
+    "scss": "sass --watch scss:css"
   },
   "author": "Anton Titov",
   "license": "ISC",
@@ -18,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/namsilatI/DSI/issues"
   },
-  "homepage": "https://github.com/namsilatI/DSI#readme"
+  "homepage": "https://github.com/namsilatI/DSI#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "sass": "^1.89.2"
+  },
+  "devDependencies": {}
 }
